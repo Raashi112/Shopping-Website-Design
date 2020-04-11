@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../CSS/checkcss.css">
+<title>Checkout Form</title>
+</head>
+<body>
+<h2>Responsive Checkout Form</h2>
+<div class="row">
+<div class="col-75">
+<div class="container">
+<form action="/action_page.php">
+<div class="row">
+<div class="col-58">
+<h3>Billing Address</h3>
+<label for="fname"><i class="fa fa-user"></i>Full Name</label>
+<input type="text" id="fname" name="firstname" placeholder="John M. Done">
+
+<label for="email"><i class="fa fa-envelope"></i>Email</label>
+<input type="text" id="email" name="email" placeholder="John@example.com">
+
+<label for="fname"><i class="far fa-address-card"></i>Address</label>
+<input type="text" id="adr" name="firstname" placeholder="897 M. 20th street">
+
+<label for="city"><i class="fas fa-university"></i>City</label>
+<input type="text" id="city" name="city" placeholder="Jalandhar">
+
+<div class="row">
+<div class="col-50">
+<label for="state">State</label>
+<input type="text" id="state" name="state" placeholder="Punjab">
+</div>
+<div class="col-50">
+<label for="state">Zip</label>
+<input type="text" id="zip" name="Zip" placeholder="114441">
+</div>
+
+
+<div class="col-50">
+<h3>Payment</h3>
+<label for="fname">Accepted Card</label>
+<i class="fab fa-cc-visa" style="color: navy;"></i>
+<i class="fab fa-cc-amex" style="color: blue;"></i>
+<i class="fab fa-cc-mastercard" style="color:red;"></i>
+<i class="fab fa-cc-discover" style="color: orange;"></i>
+</div>
+<label for="cname"></label>
+<input type="text" id="cname" name="cardnumber" placeholder="John MOre Done">
+
+<label for="ccnum">Credit Card</label>
+<input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+
+<label for="expmonth">Exp Month</label>
+<input type="text" id="expmonth" name="expmonth" placeholder="December">
+<div class="row">
+<div class="col-50">
+<label for="expyear">Exp Year</label>
+<input type="text" id="expyear" name="expyear" placeholder="2021">
+
+</div>
+</div>
+<div class="col-50">
+<label for="cvv">CVV</label>
+<input type="text" id="cvv" name="cvv" placeholder="121">
+
+</div>
+</div>
+</div>
+
+
+<input type="checkbox" name="samedr">Shipping addresss same as billing</label>
+<input type="submit" value="Continue to Checkbox" class="btn">
+
+
+</form>
+</div>
+</div>
+<div class="col-25">
+<div class="container">
+<h4>Card <span class="price" style="color: black"><i class="fas fa-shopping-cart"></i><b>4</b></span></h4>
+<p><a href="#">Handbag</a><span class="price">$450</span></p>
+<p><a href="#">Dress</a><span class="price">$232</span></p>
+<p><a href="#">Watch</a><span class="price">$356</span></p>
+<p><a href="#">Heels</a><span class="price">$470</span></p>
+<hr>
+<p>Total <span class="price" style="color: black"><b>$1508</b></span></p>
+</div>
+</div>
+</body>
+</html>
